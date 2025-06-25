@@ -59,7 +59,7 @@ Este script é responsável por **gerar o dataset final** que será utilizado pa
 
 Ele carrega os dados do ENADE 2021, do Censo da Educação Superior e do Cadastro de IES, realiza a integração entre os conjuntos de dados e aplica os seguintes tratamentos:
 
-- Filtragem para o **Grupo 906** (Bacharelado em Sistemas de Informação), incluindo apenas alunos com nota (`NT_GER`)  
+- Filtragem para o **Grupo 906** (Licenciatura em Letras - Português e Espanhol), incluindo apenas alunos com nota (`NT_GER`)  
 - Integração com informações do Censo, unindo por curso, instituição e modalidade  
 - Inclusão da informação de região (`NO_REGIAO_IES`) a partir do Cadastro de IES  
 - Seleção das colunas finais relevantes: modalidade, nota geral, faixa de renda e região  
